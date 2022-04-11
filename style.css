@@ -223,7 +223,6 @@ p {
     flex-wrap: wrap;
 }
 
-}
 
 .works__item {
     width: 25%;
@@ -232,8 +231,13 @@ p {
     border-bottom: 1px solid #fff;
     border-right: 1px solid #fff;
 
-    position: relative;
+  
     overflow: hidden;
+}
+
+.works__item >img{
+   width: 100%;
+   height: 100%;
 }
 
 
